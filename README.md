@@ -73,10 +73,10 @@ graph TD
     Backbone --> Split{Ayrım Noktası}
     
     Split --> Pol[Policy Head]
-    Pol --> |Conv + Linear| P_Out[Çıktı: 4096 (Softmax)]
+    Pol --> |Conv + Linear| P_Out["Çıktı: 4096 (Softmax)"]
     
     Split --> Val[Value Head]
-    Val --> |Conv + FC + Tanh| V_Out[Çıktı: 1 (Skaler)]
+    Val --> |Conv + FC + Tanh| V_Out["Çıktı: 1 (Skaler)"]
 ```
 
 ---

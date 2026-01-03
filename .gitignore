@@ -20,11 +20,11 @@ training_log (1).csv
 
 # Unnecessary/Independent files
 benchmark_results*
-benchmark_stockfish.py
+# benchmark_stockfish.py -> Restored for benchmarking
 create_colab_bundle.py
 generate_plot.py
 plot_loss.py
 play.py
 gui_stockfish.py
-bot_vs_bot.py
+# bot_vs_bot.py -> Restored for visual demo
 pekiştirmeliöğrenme (2).pdf
