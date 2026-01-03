@@ -109,12 +109,12 @@ Aşağıdaki grafik, modelin eğitim süresince toplam hatasının (Total Loss) 
 - **Bitiş:** 1.15
 - **Yorum:** Hatanın hızla düşmesi, sinir ağının MCTS öğreticisini başarılı bir şekilde taklit ettiğini kanıtlar.
 
-![Eğitim Yakınsama Grafiği](training_convergence_graph.png)
+![Eğitim Yakınsama Grafiği](results/training_convergence_graph.png)
 
 ### 5.2 Politika İyileşmesi (Policy Loss)
 Ağın hamle tahmin yeteneği (Policy Head) belirgin şekilde iyileşmiştir. Bu, ağın artık simülasyon yapmadan da "sezgisel" olarak iyi hamleleri bulabildiğini gösterir.
 
-![Politika İyileşme Grafiği](policy_improvement_graph.png)
+![Politika İyileşme Grafiği](results/policy_improvement_graph.png)
 
 ### 5.3 Oyun Gücü
 Eğitim sonucunda model:
