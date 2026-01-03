@@ -1,0 +1,18 @@
+# Python artifacts
+__pycache__/
+*.pyc
+
+# Large binaries and archives
+stockfish-windows-x86-64-avx2.exe
+project_bundle.zip
+
+# Models - Keep only best_model.pth
+models/*
+!models/best_model.pth
+
+# Logs - Keep only training_log.csv
+training_log (1).csv
+
+# Checkpoints or other data not for git
+*.pth
+!models/best_model.pth

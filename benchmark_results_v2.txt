@@ -1,0 +1,8 @@
+=== RL Model vs Stockfish Benchmark ===
+------------------------------------------------------------
+Seviye   | Galibiyet  | Beraberlik | Mağlubiyet | Puan  
+------------------------------------------------------------
+1        | 0          | 0          | 4          | 0.0   
+------------------------------------------------------------
+Model, Seviye 1 karşısında hiç varlık gösteremedi. Test sonlandırılıyor.
+Maksimum Başarılı Seviye: 0
