@@ -133,6 +133,12 @@ Bu projeyi kendi bilgisayarınızda çalıştırmak için aşağıdaki adımlar�
 pip install -r requirements.txt
 ```
 
+### Harici Bağımlılıklar (Stockfish)
+Projedeki bazı test ve demo dosyaları (`benchmark_stockfish.py`, `bot_vs_bot.py`) güçlü bir satranç motoru olan **Stockfish**'e ihtiyaç duyar.
+1.  **İndirin:** [https://stockfishchess.org/download/](https://stockfishchess.org/download/) adresinden sisteminize uygun (AVX2 önerilir) sürümü indirin.
+2.  **Yerleştirin:** İndirdiğiniz `.exe` dosyasını proje ana dizinine atın.
+3.  **İsimlendirin:** Dosya adını `stockfish-windows-x86-64-avx2.exe` olarak değiştirin veya kod içerisindeki yolu güncelleyin.
+
 ### Oynama (GUI)
 Eğitilmiş yapay zekaya karşı görsel arayüzde oynamak için:
 ```bash
