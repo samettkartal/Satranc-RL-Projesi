@@ -11,8 +11,20 @@ models/*
 !models/best_model.pth
 
 # Logs - Keep only training_log.csv
+training_log.csv.old
 training_log (1).csv
 
 # Checkpoints or other data not for git
 *.pth
 !models/best_model.pth
+
+# Unnecessary/Independent files
+benchmark_results*
+benchmark_stockfish.py
+create_colab_bundle.py
+generate_plot.py
+plot_loss.py
+play.py
+gui_stockfish.py
+bot_vs_bot.py
+pekiştirmeliöğrenme (2).pdf
